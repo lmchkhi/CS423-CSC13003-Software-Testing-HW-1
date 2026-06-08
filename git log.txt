@@ -1,0 +1,94 @@
+* commit 8dc6aacea854e74503340f08d3e45762dc1daf18
+| Author: lmchkhi <146848152+lmchkhi@users.noreply.github.com>
+| Date:   Mon Jun 8 09:54:47 2026 +0700
+| 
+|     Adding testcases and part 4
+| 
+|  Appendix A.md                                     |  438 ++++++++
+|  QA_roles_mindmap.md                               |   67 ++
+|  Report.md                                         | 1062 +++++++++++++++++++
+|  Self-Assessment.md                                |   11 +
+|  [AI-02] - FIT@HCMUS - AI Audit Report_En.pdf      |  Bin 0 -> 450679 bytes
+|  [AI-03] - FIT@HCMUS - AI Disclosure Form_En.pdf   |  Bin 0 -> 264832 bytes
+|  [AI-05] - FIT@HCMUS - AI Privacy Checklist_En.pdf |  Bin 0 -> 188633 bytes
+|  hw1.md                                            |  706 ------------
+|  imgs/product/evident/prove.jpg                    |  Bin 0 -> 354623 bytes
+|  imgs/product/query/chatgpt-1.png                  |  Bin 0 -> 269273 bytes
+|  imgs/product/query/chatgpt-2.png                  |  Bin 0 -> 253929 bytes
+|  imgs/product/query/chatgpt-3.png                  |  Bin 0 -> 261182 bytes
+|  imgs/product/query/chatgpt-4.png                  |  Bin 0 -> 264488 bytes
+|  imgs/product/query/qwen-1.png                     |  Bin 0 -> 381065 bytes
+|  imgs/product/query/qwen-2.png                     |  Bin 0 -> 361430 bytes
+|  imgs/product/query/qwen-3.png                     |  Bin 0 -> 317673 bytes
+|  testcases.xlsx                                    |  Bin 0 -> 10765 bytes
+|  17 files changed, 1578 insertions(+), 706 deletions(-)
+| 
+* commit 78fe6b38f913b0ce067849d35ffdc59780a38679
+  Author: lmchkhi <146848152+lmchkhi@users.noreply.github.com>
+  Date:   Wed Jun 3 19:53:33 2026 +0700
+  
+      First draft
+  
+   .gitattributes           |   1 +
+   hw1.md                   | 706 +++++++++++++++++++++++++++++++++++++++++++++
+   imgs/posting/pos1-1.png  | Bin 0 -> 314595 bytes
+   imgs/posting/pos1-2.png  | Bin 0 -> 337979 bytes
+   imgs/posting/pos1-3.png  | Bin 0 -> 343049 bytes
+   imgs/posting/pos1-4.png  | Bin 0 -> 331831 bytes
+   imgs/posting/pos1-5.png  | Bin 0 -> 330728 bytes
+   imgs/posting/pos1-6.png  | Bin 0 -> 340552 bytes
+   imgs/posting/pos1-7.png  | Bin 0 -> 326622 bytes
+   imgs/posting/pos10-1.png | Bin 0 -> 293192 bytes
+   imgs/posting/pos10-2.png | Bin 0 -> 287933 bytes
+   imgs/posting/pos10-3.png | Bin 0 -> 297123 bytes
+   imgs/posting/pos10-4.png | Bin 0 -> 292224 bytes
+   imgs/posting/pos2-1.png  | Bin 0 -> 329652 bytes
+   imgs/posting/pos2-2.png  | Bin 0 -> 360262 bytes
+   imgs/posting/pos2-3.png  | Bin 0 -> 363248 bytes
+   imgs/posting/pos2-4.png  | Bin 0 -> 336787 bytes
+   imgs/posting/pos2-5.png  | Bin 0 -> 336245 bytes
+   imgs/posting/pos2-6.png  | Bin 0 -> 335790 bytes
+   imgs/posting/pos2-7.png  | Bin 0 -> 334446 bytes
+   imgs/posting/pos3-1.png  | Bin 0 -> 323378 bytes
+   imgs/posting/pos3-2.png  | Bin 0 -> 365346 bytes
+   imgs/posting/pos3-3.png  | Bin 0 -> 351909 bytes
+   imgs/posting/pos3-4.png  | Bin 0 -> 368113 bytes
+   imgs/posting/pos3-5.png  | Bin 0 -> 345734 bytes
+   imgs/posting/pos3-6.png  | Bin 0 -> 336234 bytes
+   imgs/posting/pos4-1.png  | Bin 0 -> 312573 bytes
+   imgs/posting/pos4-2.png  | Bin 0 -> 321064 bytes
+   imgs/posting/pos4-3.png  | Bin 0 -> 341389 bytes
+   imgs/posting/pos4-4.png  | Bin 0 -> 349718 bytes
+   imgs/posting/pos4-5.png  | Bin 0 -> 359126 bytes
+   imgs/posting/pos4-6.png  | Bin 0 -> 365281 bytes
+   imgs/posting/pos4-7.png  | Bin 0 -> 353378 bytes
+   imgs/posting/pos5-1.png  | Bin 0 -> 310021 bytes
+   imgs/posting/pos5-2.png  | Bin 0 -> 336337 bytes
+   imgs/posting/pos5-3.png  | Bin 0 -> 338988 bytes
+   imgs/posting/pos5-4.png  | Bin 0 -> 329427 bytes
+   imgs/posting/pos6-1.png  | Bin 0 -> 310354 bytes
+   imgs/posting/pos6-10.png | Bin 0 -> 336963 bytes
+   imgs/posting/pos6-2.png  | Bin 0 -> 331171 bytes
+   imgs/posting/pos6-3.png  | Bin 0 -> 356086 bytes
+   imgs/posting/pos6-4.png  | Bin 0 -> 344941 bytes
+   imgs/posting/pos6-5.png  | Bin 0 -> 356680 bytes
+   imgs/posting/pos6-6.png  | Bin 0 -> 344058 bytes
+   imgs/posting/pos6-7.png  | Bin 0 -> 340132 bytes
+   imgs/posting/pos6-8.png  | Bin 0 -> 350984 bytes
+   imgs/posting/pos6-9.png  | Bin 0 -> 359195 bytes
+   imgs/posting/pos7-1.png  | Bin 0 -> 307855 bytes
+   imgs/posting/pos7-2.png  | Bin 0 -> 323062 bytes
+   imgs/posting/pos7-3.png  | Bin 0 -> 335145 bytes
+   imgs/posting/pos7-4.png  | Bin 0 -> 326867 bytes
+   imgs/posting/pos7-5.png  | Bin 0 -> 325775 bytes
+   imgs/posting/pos8-1.png  | Bin 0 -> 334799 bytes
+   imgs/posting/pos8-2.png  | Bin 0 -> 353196 bytes
+   imgs/posting/pos8-3.png  | Bin 0 -> 366240 bytes
+   imgs/posting/pos8-4.png  | Bin 0 -> 337513 bytes
+   imgs/posting/pos8-5.png  | Bin 0 -> 337513 bytes
+   imgs/posting/pos8-6.png  | Bin 0 -> 325998 bytes
+   imgs/posting/pos9-1.png  | Bin 0 -> 314549 bytes
+   imgs/posting/pos9-2.png  | Bin 0 -> 276607 bytes
+   imgs/posting/pos9-3.png  | Bin 0 -> 272773 bytes
+   imgs/posting/pos9-4.png  | Bin 0 -> 287060 bytes
+   62 files changed, 707 insertions(+)
