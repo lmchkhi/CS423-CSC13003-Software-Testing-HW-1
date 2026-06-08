@@ -6,6 +6,12 @@ For Qwen 3.5 2B model there is a "qwen prompt.json" file that is the export of t
 
 ### Qwen 3.5 2B (local)
 
+### Timestamp
+
+Wed Jun 03 2026 20:49:27 GMT+0700
+
+### Generated
+
 Based on my research of the **SENKO DCN108** standing fan model, here are comprehensive 15 test cases covering electrical safety, performance, mechanical integrity, and operational reliability:
 
 ## SENKO DCN108 Electric Standing Fan - 15 Test Cases
@@ -56,6 +62,11 @@ These test cases are designed to ensure the SENKO DCN108 meets both quality cont
 
 ### ChatGPT
 
+### Timestamp
+
+Wed Jun 03 2026, 9:31 PM
+
+### Generated
 I searched for the SENKO DCN108 and found that it is a **standing/industrial-style fan** with a 45 cm blade diameter, 5 blades, 3 speed settings, mechanical controls, oscillation function, adjustable height, and approximately 47–50 W power consumption. It is designed for large rooms, offices, shops, and workshops. ([Siêu thị Điện Máy XANH][1])
 
 Below are 15 practical test cases suitable for functional, performance, safety, and reliability testing of the SENKO DCN108.
@@ -99,6 +110,12 @@ These test cases are based on the DCN108's documented features such as 3-speed c
 Give me a QA/QC roles mindmap
 
 ### Copilot (GPT-5 mini)
+
+#### Timestamp
+
+04 Tháng 6 2026, 2:10:24 PM
+
+#### Generated
 
 I'll create a short TODO plan, then generate the mindmap.
 
@@ -181,6 +198,10 @@ Done — mindmap provided. Want me to save this as a file in QC (e.g., `QC/QA_ro
 For each of the defect given in the list, give me an summary of what it is. Look into each of the URL reference(s) listed in "Nguồn tham khảo" of each defect, see what each URL reference said about the defect and put it in "AI explaining each of the defect" section. You can ignore "Mô tả defect" as that does not contain much info.
 
 ### AI Gen (GPT-5 mini)
+
+#### Timestamp
+
+07/06/2026 3:14 PM
 
 #### On File
 
