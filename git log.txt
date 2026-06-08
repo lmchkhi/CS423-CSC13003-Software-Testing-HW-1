@@ -1,4 +1,4 @@
-* commit 8dc6aacea854e74503340f08d3e45762dc1daf18
+* commit b7a0d5acd29cfbf52d2fed4bcde46798d7807159
 | Author: lmchkhi <146848152+lmchkhi@users.noreply.github.com>
 | Date:   Mon Jun 8 09:54:47 2026 +0700
 | 
@@ -11,6 +11,7 @@
 |  [AI-02] - FIT@HCMUS - AI Audit Report_En.pdf      |  Bin 0 -> 450679 bytes
 |  [AI-03] - FIT@HCMUS - AI Disclosure Form_En.pdf   |  Bin 0 -> 264832 bytes
 |  [AI-05] - FIT@HCMUS - AI Privacy Checklist_En.pdf |  Bin 0 -> 188633 bytes
+|  git log.txt                                       |   94 ++
 |  hw1.md                                            |  706 ------------
 |  imgs/product/evident/prove.jpg                    |  Bin 0 -> 354623 bytes
 |  imgs/product/query/chatgpt-1.png                  |  Bin 0 -> 269273 bytes
@@ -20,8 +21,9 @@
 |  imgs/product/query/qwen-1.png                     |  Bin 0 -> 381065 bytes
 |  imgs/product/query/qwen-2.png                     |  Bin 0 -> 361430 bytes
 |  imgs/product/query/qwen-3.png                     |  Bin 0 -> 317673 bytes
+|  qwen prompt.json                                  |  398 +++++++
 |  testcases.xlsx                                    |  Bin 0 -> 10765 bytes
-|  17 files changed, 1578 insertions(+), 706 deletions(-)
+|  19 files changed, 2070 insertions(+), 706 deletions(-)
 | 
 * commit 78fe6b38f913b0ce067849d35ffdc59780a38679
   Author: lmchkhi <146848152+lmchkhi@users.noreply.github.com>

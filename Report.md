@@ -908,6 +908,10 @@ Give me 15 testcases for a SENKO standing electric fan, model code is DCN108. Do
 
 ![Ảnh thiết bị với thẻ sinh viên](/imgs/product/evident/prove.jpg)
 
+### Ảnh github Issues
+
+![Ảnh Issues trên github](imgs/product/evident/github-prove.png)
+
 ## Yêu cầu 4 - AI Tool vẽ QA/QC role mindmap, tìm ra 3 lỗi của AI.
 
 ### QA & QC Roles Mindmap
@@ -1047,7 +1051,6 @@ mindmap
 |   1  | Job Market 2026+ (10 jobs × 3pts + AI Impact)           |   40  |               40              |
 |   2  | Software Defects 2022–2026 (20 defects)                 |   20  |               19              |
 |   3  | Physical-product test design(15 TCs + 5 videos)         |   25  |               25              |
-|   4  | AI Tool draws a QA/QC rolemindmap, you find 3 mistakes. |   ?   | whatever you find appropriate |
 | AI-1 | [AI-02] AI Audit Report (5-section) attached            |   8   |               8               |
 | AI-2 | AI Critique 200–300 words + [AI-03] Disclosure attached |   4   |               4               |
 | AI-3 | [AI-05] Checklist signed + anti-cheat artifacts         |   3   |               3               |
